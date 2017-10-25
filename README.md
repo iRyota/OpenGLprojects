@@ -21,6 +21,13 @@ $ cp ./template/* {新規ディレクトリ名}
 
 ＊テンプレはまだ改善の余地あり
 
+モノができたら、作業中のディレクトリで
+```
+$ python main.py
+```
+
+で実行する (そうなるようにテンプレを作ってある)
+
 ## 今後お世話になるであろうサイト
 - [OpenGL Tutorial](http://www.opengl-tutorial.org/jp/)
 - [PyOpenGLのドキュメント](http://pyopengl.sourceforge.net/pydoc/OpenGL.GLUT.html)
