@@ -3,7 +3,8 @@
 import sys
 from OpenGL.GL import *
 from OpenGL.GLUT import *
-import func
+from func import *
+import variables as var
 
 # callback
 def cb(button, state, x, y):
