@@ -6,6 +6,7 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 import time
 import math
+import numpy as np
 
 sys.path.append(os.pardir)
 import variables as var
@@ -32,7 +33,11 @@ class  Planet:
         self.children.append(child_planet)
 
     # def set_pos(self):
-    #     self.pos =
+    #     axis_norm = math.sqrt(self.rev_axis[0]**2+self.rev_axis[1]**2+self.rev_axis[2]**2)
+    #     skew_symmetric = np.array([[0,-self.rev_axis[0],self.rev_axis[1]],[self.rev_axis[2],0,-self.rev_axis[0]],[-self.rev_axis[1],self.rev_axis[0],0]])
+    #     skew_symmetric = skew_symmetric/axis_norm
+    #     rotation_matrix = np.identity(3)+skew_symmetric*math.sin(self.rev_vel*var.day)+np.dot(skew_symmetric,skew_symmetric)*(1-math.cos(self.rev_vel*var.day))
+    #     self.pos = self.parent.pos+rotation_matrix
 
     def draw(self):
 
