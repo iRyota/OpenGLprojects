@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/draw_function.c
+GLUT/GLUT.h
+-
+math.h
+-
+
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/draw_function.h
+
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/get_clock_now.c
+stdlib.h
+-
+sys/time.h
+-
+
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/get_clock_now.h
+
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/sample.c
+GLUT/GLUT.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+get_clock_now.h
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/get_clock_now.h
+draw_function.h
+/Users/ryota/Documents/programming/OpenGLProjects/cpp-game-project/draw_function.h
+
